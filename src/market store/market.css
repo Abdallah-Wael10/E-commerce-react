@@ -1,0 +1,684 @@
+/* Nav bar edit */
+.market>.Nav>.nav1>.home > :nth-child(2){
+    a {
+        color: white;
+    }
+}
+.market>.Nav>.nav1>.home > :nth-child(1){
+    a {
+        color: #383735;
+    }
+}
+.market>.Nav>.nav1>.home > :nth-child(4){
+    a {
+        color: #383735;
+    }
+}
+/* ------------- */
+/* footer edit */
+.market>.footer{
+    position: relative;
+    top: 251px;
+}
+
+
+#sec1{
+    width: 100%;
+    height: 600px;
+
+  
+  
+}
+#sec1>:first-child{
+    width: 184px;
+    position: relative;
+    left: 36px;
+    top: 36px;
+  
+}
+#sec1>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 27px;
+    top: 40px;
+    display: flex;
+  
+}
+#adv1{
+    width: 93%;
+    height: 246px;
+    position: relative;
+    left: 27px;
+top: 48px;   
+}
+#adv2{
+    width: 93%;
+    height: 246px;
+    position: relative;
+    left: -18px;
+    top: 94px;
+}
+#adv22{
+    width: 93%;
+    height: 246px;
+    position: relative;
+    left: 29px;
+    top: 99px;
+}
+#advv22{
+        width: 93%;
+        height: 246px;
+        position: relative;
+        left: -18px;
+        top: 48px;
+}
+#adv222 {
+    width: 93%;
+    height: 246px;
+    position: relative;
+    left: 8px;
+    top: -1px;
+}
+
+#advvv1{
+    width: 93%;
+    height: 246px;
+    position: relative;
+    left: 27px;
+    top: 104px;
+}
+#advvv12{
+    width: 93%;
+    height: 246px;
+    position: relative;
+    left: 27px;
+    top: 110px;
+}
+
+
+
+.continar{
+    position: relative;
+    left: 27px;
+    top: 77px;
+    display: flex;
+    gap: 13px;
+    width: 91%;
+
+
+}
+#sec2{
+    position: relative;
+    left: 0px;
+    top: 101px;
+    width: 100%;
+    height: 716px;
+
+    .continar{
+        position: relative;
+        left: 27px;
+        top: 92px;
+        display: flex;
+
+    }
+  
+}
+#sec2>:first-child{
+    width: 184px;
+    position: relative;
+    left: 36px;
+    top: 36px;
+  
+}
+#sec2>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 4px;
+    top: -45px;
+  
+}
+
+
+#sec3{
+    position: relative;
+    left: 0px;
+    top: 101px;
+    width: 100%;
+    height: 716px;
+
+    .continar {
+        position: relative;
+        left: 27px;
+        top: 86px;
+    }
+  
+}
+#sec3>:first-child{
+    width: 184px;
+    position: relative;
+    left: 36px;
+    top: 36px;
+  
+}
+#sec3>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 47px;
+    top: 67px;  
+}
+#sec4{
+    position: relative;
+    left: 0px;
+    top: 101px;
+    width: 100%;
+    height: 716px;
+
+    .continar {
+        position: relative;
+        left: 27px;
+        top: 86px;
+    }
+  
+}
+#sec4>:first-child{
+    width: 184px;
+    position: relative;
+    left: 36px;
+    top: 36px;
+  
+}
+#sec4>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 1px;
+    top: -65px;
+  
+}
+#sec5{
+    position: relative;
+    left: 0px;
+    top: 101px;
+    width: 100%;
+    height: 716px;
+
+    .continar {
+        position: relative;
+        left: 27px;
+        top: 86px;
+    }
+  
+}
+#sec5>:first-child{
+    width: 184px;
+    position: relative;
+    left: 36px;
+    top: 36px;
+  
+}
+#sec5>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 23px;
+    top: 48px;
+  
+}
+#sec6{
+    position: relative;
+    left: 0px;
+    top: 101px;
+    width: 100%;
+    height: 716px;
+
+    .continar {
+        position: relative;
+        left: 27px;
+        top: 73px;
+    }
+  
+}
+#sec6>:first-child{
+    width: 184px;
+    position: relative;
+    left: 36px;
+    top: 36px;
+  
+}
+#sec6>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 1px;
+    top: -65px;
+  
+}
+#sec7{
+    position: relative;
+    left: 0px;
+    top: 94px;
+    width: 100%;
+    height: 716px;
+
+    .continar {
+        position: relative;
+        left: 27px;
+        top: 40px;
+    }
+  
+}
+#sec7>:first-child{
+    width: 184px;
+    position: relative;
+    left: 39px;
+    top: 21px;
+  
+}
+#sec7>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 54px;
+    top: -22px;
+  
+}
+#sec8{
+    position: relative;
+    left: 0px;
+    top: 135px;
+    width: 100%;
+    height: 716px;
+
+    .continar {
+        position: relative;
+        left: 27px;
+        top: 20px;
+    }
+  
+}
+#sec8>:first-child{
+    width: 184px;
+    position: relative;
+    left: 36px;
+    top: -30px;
+  
+}
+#sec8>:nth-child(2){
+    width: 94%;
+    height: 246px;
+    position: relative;
+    left: 1px;
+    top: -65px;
+  
+}
+
+
+@media (max-width:430px){
+    #ppp {
+        position: relative;
+        left: 339px;
+        top: -112px;
+    }
+
+        #adv2 {
+            width: 93%;
+            height: 246px;
+            position: relative;
+            left: -48px;
+            top: 94px;
+        }
+
+        #advv22 {
+            width: 93%;
+            height: 246px;
+            position: relative;
+            left: -45px;
+            top: 48px;
+        
+    }
+    #advvv12 {
+        width: 93%;
+        height: 246px;
+        position: relative;
+        left: 0px;
+        top: 110px;
+    }
+    #adv22 {
+        width: 93%;
+        height: 246px;
+        position: relative;
+        left: 0px;
+        top: 99px;
+    }
+    #advvv1 {
+        width: 93%;
+        height: 246px;
+        position: relative;
+        left: 0px;
+        top: 104px;
+    }
+    #sec7>:nth-child(2) {
+        width: 96%;
+        height: 246px;
+        position: relative;
+        left: 6px;
+        top: 27px;
+    }
+    #sec8 {
+        position: relative;
+        left: -14px;
+        top: 11369px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+   .market .continar {
+        position: relative;
+        left: 98px;
+        top: 77px;
+        display: flex;
+        gap: 13px;
+        width: 59%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sec2 {
+        position: relative;
+        left: 0px;
+        top: 1723px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+
+    }
+    #sec3 {
+        position: relative;
+        left: 0px;
+        top: 3334px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec3>:nth-child(2) {
+        width: 94%;
+        height: 246px;
+        position: relative;
+        left: 6px;
+        top: 59px;
+    }
+    #sec5>:nth-child(2) {
+        width: 94%;
+        height: 246px;
+        position: relative;
+        left: 6px;
+        top: 59px;
+    }
+    #sec4 {
+        position: relative;
+        left: 0px;
+        top: 4934px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec5 {
+        position: relative;
+        left: 0px;
+        top: 6533px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec6 {
+        position: relative;
+        left: 0px;
+        top: 8142px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec7 {
+        position: relative;
+        left: 0px;
+        top: 9642px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec7 {
+        position: relative;
+        left: 0px;
+        top: 9731px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    .market>.footer {
+        position: relative;
+        top: 13014px;
+    }
+    
+    
+}
+@media (max-width:390px){
+    #ppp {
+        position: relative;
+        left: 232px;
+        top: -158px;
+    }
+
+        #adv2 {
+            width: 93%;
+            height: 246px;
+            position: relative;
+            left: -48px;
+            top: 94px;
+        }
+
+        #advv22 {
+            width: 93%;
+            height: 246px;
+            position: relative;
+            left: -45px;
+            top: 48px;
+        
+    }
+    #advvv12 {
+        width: 93%;
+        height: 246px;
+        position: relative;
+        left: 0px;
+        top: 110px;
+    }
+    #adv22 {
+        width: 93%;
+        height: 246px;
+        position: relative;
+        left: 0px;
+        top: 99px;
+    }
+    #advvv1 {
+        width: 93%;
+        height: 246px;
+        position: relative;
+        left: 0px;
+        top: 104px;
+    }
+    #sec7>:nth-child(2) {
+        width: 96%;
+        height: 246px;
+        position: relative;
+        left: 6px;
+        top: 27px;
+    }
+    #sec8 {
+        position: relative;
+        left: -14px;
+        top: 11369px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+   .market .continar {
+        position: relative;
+        left: 98px;
+        top: 77px;
+        display: flex;
+        gap: 13px;
+        width: 59%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sec2 {
+        position: relative;
+        left: 0px;
+        top: 1723px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+
+    }
+    #sec3 {
+        position: relative;
+        left: 0px;
+        top: 3334px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec3>:nth-child(2) {
+        width: 94%;
+        height: 246px;
+        position: relative;
+        left: 6px;
+        top: 59px;
+    }
+    #sec5>:nth-child(2) {
+        width: 94%;
+        height: 246px;
+        position: relative;
+        left: 6px;
+        top: 59px;
+    }
+    #sec4 {
+        position: relative;
+        left: 0px;
+        top: 4934px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec5 {
+        position: relative;
+        left: 0px;
+        top: 6533px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec6 {
+        position: relative;
+        left: 0px;
+        top: 8142px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec7 {
+        position: relative;
+        left: 0px;
+        top: 9642px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    #sec7 {
+        position: relative;
+        left: 0px;
+        top: 9731px;
+        width: 100%;
+        height: 716px;
+        .continar {
+            position: relative;
+            left: 79px;
+            top: 77px;
+        }
+    }
+    .market>.footer {
+        position: relative;
+        top: 13014px;
+    }
+    
+    
+}
+
+@media (max-width:320px){
+    .market .continar {
+        position: relative;
+        left: 58px;
+        top: 77px;
+    }
+}

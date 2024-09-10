@@ -1,0 +1,210 @@
+
+.sign>.footer {
+    position: relative;
+    top: -446px;
+}
+.sign>.Nav>.nav1>.home{
+    a {
+        color: #383735;
+    }
+}
+.sign{
+    width: 100%;
+    height: 1847px;
+}
+
+.contt{
+    width: 100%;
+    height: 1100px;
+}
+.contt>form{
+    width: 1030px;
+    height: 990px;
+    background-color: rgba(245, 246, 248, 0.92);
+    border-radius: 30px;
+    border-style: none;
+    position: relative;
+    left: 169px;
+    top: 34px;
+
+    animation-name: bedo;
+    animation-duration: 2s;
+    h1{
+        width: 128px;
+        height: 48px;
+        font-size: 35px;
+        color: rgba(255, 138, 0, 1);
+        position: relative;
+        top: 10px;
+        left: 425px;
+    }
+    hr{
+        position: relative;
+        top: 40px;
+    }
+    .inputss{
+        width: 735px;
+        height: 686px;
+        border-radius: 8px;
+        border-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 67px;
+        left: 185px;
+
+        input{
+            width: 700px;
+            height: 60px;
+            background-color: rgba(245, 246, 248, 0.92);
+            border-bottom-color: black;
+            border-top: white;
+            border-left: white;
+            border-right: white;
+
+        }
+    }
+    button{
+        width: 524px;
+        height: 60px;
+        background-color: rgba(255, 138, 0, 1);
+        color: white;
+        text-align: center;
+        border-radius: 8px;
+        border-style: none;
+        position: relative;
+        top: 81px;
+        left: 266px;
+    }
+    h2{
+        font-size: 18px;
+        position: relative;
+        width: 328px;
+    top: 88px;
+    left: 273px;
+    display: flex;
+    gap: 29px;
+    font-weight: 300;
+
+        a{
+            width: 49px;
+            height: 25px;
+            font-size: 18px;
+            color: rgba(255, 138, 0, 1);
+            font-weight: bold;
+
+            
+
+        }
+    }
+}
+
+.immmg2{
+    width: 99%;
+    display: flex;
+    gap: 226px;
+    height: 388px;
+    position: relative;
+    top: -440px;
+    z-index: -1;
+    
+
+    img{
+        width: 562px;
+        height: 358px;
+        border-radius: 10px;
+        border-style: none;
+    }
+}
+
+@keyframes bedo {
+    from{
+        transform: translateX(-350px);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+small{
+    color: red;
+}
+
+@media (max-width:430px) {
+    .contt>form {
+        width: 96%;
+        height: 990px;
+        background-color: rgba(245, 246, 248, 0.92);
+        border-radius: 30px;
+        border-style: none;
+        position: relative;
+        left: 6px;
+        top: 1px;
+        animation-name: bedo;
+        animation-duration: 2s;
+        .inputss {
+            width: 81%;
+            height: 686px;
+            border-radius: 8px;
+            border-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: 67px;
+            left: 47px;
+        }
+        h1 {
+            width: 128px;
+            height: 48px;
+            font-size: 35px;
+            color: rgba(255, 138, 0, 1);
+            position: relative;
+            top: 25px;
+            left: 132px;
+        }
+        button {
+            width: 90%;
+            height: 60px;
+            background-color: rgba(255, 138, 0, 1);
+            color: white;
+            text-align: center;
+            border-radius: 8px;
+            border-style: none;
+            position: relative;
+            top: 88px;
+            left: 25px;
+        }
+        h2 {
+            font-size: 18px;
+            position: relative;
+            width: 74%;
+            top: 88px;
+            left: 33px;
+            display: flex;
+            gap: 3px;
+            font-weight: 300;
+        }
+ 
+    }
+    .immmg2 {
+        width: 93%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 226px;
+        height: 388px;
+        position: relative;
+        top: -440px;
+        z-index: -1;
+        img{
+            width: 100%;
+        }
+    }
+    .sign>.footer {
+        position: relative;
+        top: -452px;
+        width: 100%;
+        height: 1739px;
+    }
+}
+

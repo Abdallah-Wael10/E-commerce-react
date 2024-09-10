@@ -1,0 +1,217 @@
+.login>.Nav>.nav1>.home{
+    a{
+        color: #383735;
+    }
+}
+
+#bigsection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+    button{
+        width: 524px;
+        height: 60px;
+        background-color:rgba(255, 138, 0, 1) ;
+        text-align: center;
+        color: white;
+        border-radius: 12px;
+        border-style: none;
+    }
+
+    .loginn{
+        width: 598px;
+    height: 438px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    left: 127px;
+    top: 50px;
+    flex-direction: column;
+    animation-name: bedo;
+    animation-duration: 2s;
+
+    hr{
+        height: 470px;
+        width: 0px;
+    }
+
+        h1{
+            width: 66px;
+            height: 34px;
+            font-size: 25px;
+            font-weight: 600;
+            color: rgba(255, 138, 0, 1);
+            position: relative;
+            left: 229px;
+        }
+        input{
+            width: 528px;
+            height: 60px;
+            background-color: rgba(245, 246, 248, 0.92);
+            border-bottom-color: black;
+            border-top: white;
+            border-left: white;
+            border-right: white;
+        }
+
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px
+        }
+    }
+    .create{
+        width: 529px;
+        height: 438px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        position: relative;
+        left: -43px;
+        top: 83px;
+        flex-direction: column;
+        animation-name: bedo1;
+        animation-duration: 2s;
+
+        h1{
+            width: 248px;
+            height: 34px;
+            font-size: 25px;
+            color: rgba(255, 138, 0, 1);
+            font-weight: 600;
+            position: relative;
+            left: 229px;
+
+        }
+        p{
+            width:405px ;
+            height: 67px;
+            font-size: 18px;
+            font-weight: 400;
+
+        }
+    }
+
+}
+
+@keyframes bedo {
+    from{
+        transform: translateX(-350px);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+@keyframes bedo1 {
+    from{
+        transform: translateX(350px);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+@media (max-width:430px) {
+    #bigsection {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        .create {
+            h1 {
+                width: 99px;
+                height: 34px;
+                font-size: 25px;
+                color: rgba(255, 138, 0, 1);
+                font-weight: 600;
+                position: relative;
+                left: 112px;
+            }
+            p {
+                width: 76%;
+                height: 67px;
+                font-size: 18px;
+                font-weight: 400;
+                position: relative;
+                left: 30px;
+                top: -25px;
+                text-align: center;
+            }
+        }
+        .create {
+            width: 529px;
+            height: 438px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 26px;
+            position: relative;
+            left: 0;
+            top: 83px;
+            flex-direction: column;
+            animation-name: bedo1;
+            animation-duration: 2s;
+        }
+        button {
+            width: 95%;
+            height: 60px;
+            background-color: rgba(255, 138, 0, 1);
+            text-align: center;
+            color: white;
+            border-radius: 12px;
+            border-style: none;
+            position: relative;
+            left: 10px;
+        }
+        .loginn {
+            width: 100%;
+            height: 438px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            position: relative;
+            left: 0;
+            top: 50px;
+            flex-direction: column;
+            animation-name: bedo;
+            animation-duration: 2s;
+            input{
+                width: 91%;
+                height: 60px;
+                position: relative;
+                left: 15px;
+            
+            }
+            h1 {
+                width: 66px;
+                height: 34px;
+                font-size: 25px;
+                font-weight: 600;
+                color: rgba(255, 138, 0, 1);
+                position: relative;
+                left: 170px;
+            }
+            form {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 22px;
+                width: 100%;
+        
+                button {
+                    width: 95%;
+                }
+            }
+        
+        }
+    }
+    .login .footer {
+        position: relative;
+        top: 430px;
+        width: 100%;
+        height: 1739px;
+    }
+}
+

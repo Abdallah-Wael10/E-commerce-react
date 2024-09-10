@@ -1,0 +1,641 @@
+.footer{
+    width: 100%;
+    height: 809px;
+    background-color: rgba(67, 66, 66, 1);
+    /* position: relative;
+    top: 3674px; */
+
+}
+#firstf{
+    width: 100%;
+    height: 229px;
+    background-color: rgba(49, 49, 49, 1);
+
+    h2{
+        width: 500px;
+        position: relative;
+        top: -57px;
+        left: 218px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+    }
+    input{
+        width: 509.58px;
+        height: 60px;
+        background-color: white;
+        position: relative;
+    top: -59px;
+    left: 216px;
+    }
+
+    button{
+        width: 130.64px;
+        height: 60px;
+        background-color: rgba(49, 49, 49, 1);
+        color: white;
+        border-radius: 5px;
+        border-color: white;
+        border-style: solid;
+        position: relative;
+        top: -58px;
+        left: 247px;
+    }
+
+    h3{
+        width: 250.35px;
+        height: 55px;
+        color: white;
+        position: relative;
+        top: -180px;
+        left: 976px;
+    }
+    h4{
+        width: 220px;
+        position: relative;
+        top: -232px;
+        left: 976px;
+        height: 28px;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 300;
+    }
+
+    span{
+        display: flex;
+    position: relative;
+    top: 63px;
+    left: 68px;
+    border-radius: 80px;
+    width: 90px;
+    height: 89px;
+    background-color: rgba(246, 246, 246, 1);
+    color: black;
+    h1{
+        position: relative;
+        font-size: 16px;
+        top: 20px;
+        left: 25px;
+    }
+    }
+}
+
+#imgs{
+    display: flex;
+    position: relative;
+    top: -242px;
+    left: 954px;  
+    width: 312px;
+      img{
+        width: 146.59px;
+        height: 40px;
+        border-radius: 15px;
+        border-color: white;
+        border-style: solid;
+    }
+}
+
+.let{
+    width: 345px;
+
+    font-size: 18px;
+    color: white;
+    width: 300px;
+    position: relative;
+    top: -109px;
+    left: 137px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.about{
+    width: 345px;
+
+    position: relative;
+    top: -437px;
+    left: 664px;
+    width: 600px;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    
+}
+.all2{
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+color: white
+;}
+
+.MONEY{
+    width: 300px;
+
+    position: relative;
+    top: -770px;
+    left: 997px;
+    color: white;
+    h1{
+            width: 300px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.iconss{
+    display: flex;
+    position: relative;
+    top: -627px;
+    left: 130px;
+    width: 200px;
+    a{
+        color: white;
+    }
+   img{
+    width: 30px;
+    height: 30px;
+    color: white;
+   }
+}
+
+
+
+@media (max-width: 600px) {
+    .App .footer {
+        position: relative;
+        top: 11136px;
+        width: 100%;
+        height: 1456px;
+
+        #firstf {
+            .conm{
+                width: 100%;
+                height: 380px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            h2{
+                display: none;
+            }
+            span{
+                position: relative;
+                top: 34px;
+                left: 39px;
+            }
+            button {
+                width: 130.64px;
+                height: 60px;
+                background-color: rgba(49, 49, 49, 1);
+                color: white;
+                border-radius: 5px;
+                border-color: white;
+                border-style: solid;
+                position: relative;
+                top: -44px;
+                left: 150px;
+            }
+            input {
+                width: 299.58px;
+                height: 60px;
+                background-color: white;
+                position: relative;
+                top: -43px;
+                left: 137px;
+            }
+            h3 {
+                width: 250.35px;
+                height: 55px;
+                color: white;
+                position: relative;
+                top: -59px;
+                left: 210px;
+            }
+            h4 {
+                position: relative;
+                top: -104px;
+                left: 223px;
+            }
+            #imgs {
+                display: flex;
+                position: relative;
+                top: -126px;
+                left: 177px;
+                width: 312px;
+                gap: 20px;
+            }
+            .iconss {
+                display: flex;
+                position: relative;
+                top: -542px;
+                left: 23px;
+                width: 200px;
+            }
+     
+            .about {
+                font-size: 15px;
+                color: white;
+                width: 210px;
+                position: relative;
+                top: 351px;
+                left: 85px;
+            }
+            .MONEY {
+                font-size: 15px;
+                color: white;
+                width: 179px;
+                position: relative;
+                top: 727px;
+                left: -123px;
+            }
+            .let {
+                font-size: 15px;
+                color: white;
+                width: 189px;
+                position: relative;
+                top: -68px;
+                left: 279px;
+            }
+        }
+    }
+}
+@media (max-width: 430px) {
+    .App .footer {
+        position: relative;
+        top: 18089px;
+        width: 100%;
+        height: 1739px;
+
+        #firstf {
+            .conm{
+                width: 100%;
+                height: 380px;
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
+                left: -134px;
+            }
+            h2{
+                display: none;
+            }
+            span{
+                position: relative;
+                top: 34px;
+                left: 9px;
+            }
+            button {
+                width: 130.64px;
+                height: 60px;
+                background-color: rgba(49, 49, 49, 1);
+                color: white;
+                border-radius: 5px;
+                border-color: white;
+                border-style: solid;
+                position: relative;
+                top: -39px;
+                left: 150px;
+            }
+            input {
+                width: 299.58px;
+                height: 60px;
+                background-color: white;
+                position: relative;
+                top: -43px;
+                left: 106px;
+            }
+            h3 {
+                width: 250.35px;
+                height: 55px;
+                color: white;
+                position: relative;
+                top: -55px;
+                left: 96px;
+            }
+            h4 {
+                position: relative;
+                top: -104px;
+                left: 110px;
+            }
+            #imgs {
+                display: flex;
+                position: relative;
+                top: -123px;
+                left: 63px;
+                width: 312px;
+                gap: 9px;
+            }
+            .iconss {
+                display: flex;
+                position: relative;
+                top: -487px;
+                left: 174px;
+                width: 200px;
+            }
+     
+            .about {
+                font-size: 15px;
+                color: white;
+                width: 210px;
+                position: relative;
+                top: 351px;
+                left: 85px;
+
+                .all2 {
+                    width: 217px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    color: white;
+                }
+            }
+            .MONEY {
+                font-size: 15px;
+                color: white;
+                width: 288px;
+                position: relative;
+                top: 517px;
+                left: 213px;
+            }
+            .let {
+                font-size: 15px;
+                color: white;
+                width: 189px;
+                position: relative;
+                top: -68px;
+                left: 279px;
+            }
+        }
+    }
+}
+
+/* @media (max-width: 390px) {
+    .App .footer {
+        position: relative;
+        top: 18089px;
+        width: 100%;
+        height: 1739px;
+
+        #firstf {
+            .conm{
+                width: 100%;
+                height: 380px;
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
+                left: -134px;
+            }
+            h2{
+                display: none;
+            }
+            span{
+                position: relative;
+                top: 34px;
+                left: 9px;
+            }
+            button {
+                width: 130.64px;
+                height: 60px;
+                background-color: rgba(49, 49, 49, 1);
+                color: white;
+                border-radius: 5px;
+                border-color: white;
+                border-style: solid;
+                position: relative;
+                top: -39px;
+                left: 126px;
+            }
+            input {
+                width: 186.58px;
+                height: 60px;
+                background-color: white;
+                position: relative;
+                top: -43px;
+                left: 106px;
+            }
+            h3 {
+                width: 250.35px;
+                height: 55px;
+                color: white;
+                position: relative;
+                top: -55px;
+                left: 47px;
+            }
+            h4 {
+                position: relative;
+                top: -104px;
+                left: 61px;
+            }
+            #imgs {
+                display: flex;
+                position: relative;
+                top: -123px;
+                left: 6px;
+                width: 301px;
+                gap: 9px;
+            }
+            .iconss {
+                display: flex;
+                position: relative;
+                top: -487px;
+                left: 107px;
+                width: 116px;
+            }
+     
+            .about {
+                font-size: 15px;
+                color: white;
+                width: 210px;
+                position: relative;
+                top: 85px;
+                left: 188px;
+
+                .all2 {
+                    width: 217px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    color: white;
+                }
+            }
+            .MONEY {
+                font-size: 15px;
+                color: white;
+                width: 284px;
+                position: relative;
+                top: 207px;
+                left: 154px;
+                .all2 {
+                    width: 282px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    color: white;
+                }
+                h1 {
+                    width: 290px;
+                }
+            }
+            .let {
+                font-size: 15px;
+                color: white;
+                width: 189px;
+                position: relative;
+                top: -68px;
+                left: 198px;
+            }
+        }
+    }
+} */
+
+.conm{
+    width: 100%;
+    height: 368px;
+}
+
+@media (max-width: 390px) {
+    .App .footer {
+        position: relative;
+        top: 18089px;
+        width: 100%;
+        height: 1739px;
+
+        #firstf {
+            .conm{
+                width: 100%;
+                height: 380px;
+                display: flex;
+                flex-wrap: wrap;
+                position: relative;
+                left: -134px;
+            }
+            h2{
+                display: none;
+            }
+            span{
+                position: relative;
+                top: 7px;
+                left: 9px;
+            }
+            button {
+                width: 130.64px;
+                height: 60px;
+                background-color: rgba(49, 49, 49, 1);
+                color: white;
+                border-radius: 5px;
+                border-color: white;
+                border-style: solid;
+                position: relative;
+                top: -2px;
+                left: -60px;
+            }
+            input {
+                width: 186.58px;
+                height: 60px;
+                background-color: white;
+                position: relative;
+                top: -71px;
+                left: 106px;
+            }
+            h3 {
+                width: 250.35px;
+                height: 55px;
+                color: white;
+                position: relative;
+                top: -16px;
+                left: 33px;
+            }
+            h4 {
+                position: relative;
+                top: -63px;
+                left: 52px;
+            }
+            #imgs {
+                display: flex;
+                position: relative;
+                top: -86px;
+                left: 6px;
+                width: 301px;
+                gap: 9px;
+            }
+            .iconss {
+                display: flex;
+                position: relative;
+                top: -437px;
+                left: 107px;
+                width: 116px;
+            }
+     
+            .about {
+                font-size: 15px;
+                color: white;
+                width: 210px;
+                position: relative;
+                top: 85px;
+                left: 188px;
+
+                .all2 {
+                    width: 217px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    color: white;
+                }
+            }
+            .MONEY {
+                font-size: 15px;
+                color: white;
+                width: 284px;
+                position: relative;
+                top: 207px;
+                left: 154px;
+                .all2 {
+                    width: 282px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    color: white;
+                }
+                h1 {
+                    width: 290px;
+                }
+            }
+            .let {
+                font-size: 15px;
+                color: white;
+                width: 189px;
+                position: relative;
+                top: 5px;
+                left: 198px;
+            }
+        }
+    }
+}
+
+@media (max-width:320px){
+    .App .footer{
+        #firstf{
+            button {
+                width: 130.64px;
+                height: 60px;
+                background-color: rgba(49, 49, 49, 1);
+                color: white;
+                border-radius: 5px;
+                border-color: white;
+                border-style: solid;
+                position: relative;
+                top: -38px;
+                left: 91px;
+            }
+        }
+    }
+}

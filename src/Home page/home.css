@@ -1,0 +1,1281 @@
+@media  (max-width: 1300px) {
+    .nav1>.home{
+        position: relative;
+        top: -27px;
+        left: 268px;
+        width: 50%;
+    }
+    .nav1>.log{
+        position: relative;
+        top: -56px;
+        left: 830px;
+        gap: 7px;
+        width: 25%;
+    }
+    .nav2>.search {
+        position: relative;
+        top: -74px;
+        left: 85px;
+    }
+    .search>.icons {
+        display: flex;
+        gap: 15px;
+        position: relative;
+        top: -3px;
+        left: -46px;
+    }
+    .Home>header {
+        width: 58%;
+        position: relative;
+        left: 278px;
+        img{
+            width: 100%;
+
+        }
+    }
+    .Home aside{
+        width: 22%;
+    }
+   .Home .salescode {
+    width: 12%;
+        position: relative;
+        left: 948px;
+        div {
+            width: 100%;
+            height: 175px;
+            background-color: #ECEDED;
+            border-radius: 27px;
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    }
+    .salescode2 #secc2 {
+        position: relative;
+        top: 14px;
+        left: -297px;
+        width: 1068px;
+        height: 376px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 60px;
+    }
+   .Home .salescode2 {
+    width: 57%;
+    height: 214px;
+    flex-wrap: wrap; 
+   }
+   .salescode2  {
+    #secc3{
+        position: relative;
+        left: -293px;
+        top: 697px;
+        width: 1065px;
+        height: 376px;
+        display: flex;
+        gap: 60px;
+        h1 {
+            display: flex;
+            gap: 801px;
+        }
+    }
+    #secc4 {
+        position: relative;
+        left: -310px;
+        top: 1248px;
+        width: 1288px;
+        height: 376px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+        h1 {
+            display: flex;
+            gap: 897px;
+        }
+
+        .continarr {
+            display: flex;
+            flex-wrap: wrap;
+            width: 89%;
+            gap: 21px;
+        }
+        /* #addv1 {
+            width: 84%;
+            height: 259px;
+        } */
+    }
+    #secc5 {
+        position: relative;
+        left: -306px;
+        top: 2146px;
+        width: 1080px;
+        height: 1160px;
+        h1 {
+            display: flex;
+            gap: 708px;
+        }
+    }
+    #secc6 {
+        position: relative;
+        left: -300px;
+        top: 3024px;
+        width: 1067px;
+        height: 777px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 55px;
+        h1 {
+            display: flex;
+            gap: 800px;
+        }
+    }
+    #secc7 {
+        position: relative;
+        left: -300px;
+        top: 3509px;
+        width: 1062px;
+        height: 416px;
+    
+    }
+    }
+
+
+
+
+
+
+
+
+
+   
+
+    }
+
+    @media (max-width:600px){
+        .nav1{
+                .continarr {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 99%;
+                    gap: 21px;
+            }
+
+            .home {
+                position: relative;
+                top: -27px;
+                left: 268px;
+                width: 50%;
+                font-size: 12px;
+                gap: 20px;
+            }
+            .log {
+                position: relative;
+                top: -16px;
+                left: 409px;
+                gap: 7px;
+                width: 31%;
+                height: 50px;
+            }
+            .log>:first-child {
+                width: 85px;
+                height: 36px;
+                h1 {
+                    font-size: 16px;
+                    position: relative;
+                    left: 11px;
+                    top: -4px;
+                    width: 73px;
+                }
+            }
+            .log>:nth-child(2) {
+                width: 85px;
+                height: 36px;
+                h1 {
+                    font-size: 16px;
+                    position: relative;
+                    left: 11px;
+                    top: -4px;
+                    width: 73px;
+                }
+            }
+        
+        }
+        .Home{
+            #ppp {
+                position: relative;
+                top: -167px;
+                font-size: 21px;
+                left: 537px;
+                width: 25px;
+                height: 26px;
+                background-color: white;
+                text-align: center;
+                border-radius: 78px;
+                box-shadow: 4px 4px 81px white;
+            }
+            
+            aside{
+                display: none;
+            }
+            .salescode{
+                display: none;
+            }
+            header {
+                width: 85%;
+                position: relative;
+                left: 27px;
+                top: 0px;
+                height: 593px;
+            }
+            .salescode2 {
+                width: 86%;
+                height: 214px;
+                flex-wrap: wrap;
+                position: relative;
+                top: 0;
+                left: 14px;
+
+       
+
+                    #secc2{
+                        position: relative;
+                        top: 29px;
+                        left: 16px;
+                        width: 535px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                    }
+                    #secc3{
+                        position: relative;
+                        top: 959px;
+                        left: 16px;
+                        width: 535px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                        h1 {
+                            display: flex;
+                            gap: 279px;
+                        }
+                    }
+                    #secc4{
+                        position: relative;
+                        top: 1897px;
+                        left: 16px;
+                        width: 515px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                        h1 {
+                            display: flex;
+                            gap: 279px;
+                        }
+                        .continarr {
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 98%;
+                            gap: 21px;
+                        }
+                    }
+                    #secc5{
+                        position: relative;
+                        top: 3141px;
+                        left: 16px;
+                        width: 515px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                    h1 {
+                        display: flex;
+                        gap: 279px;
+                    }
+                }
+                    #secc6{
+                        position: relative;
+                        top: 6449px;
+                        left: 16px;
+                        width: 524px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                    h1 {
+                        display: flex;
+                        gap: 279px;
+                    }
+                }
+                    #secc7{
+                            position: relative;
+                            top: 7766px;
+                            left: 16px;
+                            width: 524px;
+                            height: 376px;
+                            display: flex;
+                            gap: 54px;
+                        
+                    h1 {
+                        display: flex;
+                        gap: 279px;
+                    }
+                }
+                
+            }
+        }
+    }
+.Home>.footer{
+    position: relative;
+    top: 3600px;
+}
+.Home>.Nav>.nav1>.home > :nth-child(1){
+    a {
+        color: white;
+    }
+}
+.Home>.Nav>.nav1>.home > :nth-child(4){
+    a {
+        color: #383735;
+    }
+}
+
+body{
+    width: 100%;
+    background-color: white;
+}
+
+#ppp{
+    position: relative;
+    top: -105px;
+    font-size: 21px;
+    left: 1200px;
+    width: 25px;
+    height: 26px;
+    background-color: white;
+    text-align: center;
+    border-radius: 78px;
+    box-shadow: 4px 4px 81px white;
+}
+
+
+
+
+aside{
+    width: 272px;
+    height: 835px;
+    box-shadow: 2px 2px 33px #ECEDED;
+    position: relative;
+    top: 32px;
+    left: 13px;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    animation: bedo 2s ;
+    button{
+        background-color: white;
+        text-align: center;
+        border-style: none;
+        position: relative;
+        top: 25px;
+        font-size: 18px;
+        
+
+        img{
+            width: 24px;
+            height: 24px;
+            position: relative;
+            top: 5px;
+            left: -9px;
+        }
+
+     
+    }
+    a{
+        position: relative;
+        top: 2px;
+        left: 84px;
+    }
+}
+
+.log{
+    width: 296px;
+
+}
+.home{
+    width: 40%;
+
+}
+
+header{
+    width: 795px;
+    position: relative;
+    top: -822px;
+    left: 315px;
+    border-radius: 34px;
+    height: 741px;
+    background-color: #FAFAFA;
+    text-align: center;
+    animation: bedo 2s ;
+
+
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+
+.salescode{
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+    height: 660px;
+    gap: 30px;
+    position: relative;
+    top: -1556px;
+    left: 1122px;
+
+    div{
+        width: 234px;
+        height: 218px;
+        background-color: #ECEDED;
+        border-radius: 27px;
+
+        img{
+            width: 234px;
+            height: 218px;
+            border-radius: 27px;
+            animation: bedo 2s ;
+
+        }
+    }
+}
+
+.salescode2{
+    display: flex;
+    width: 998px;
+    height: 104px;
+    gap: 28px;
+    position: relative;
+    top: -1474px;
+    left: 325px;
+
+
+ 
+}
+.addv1{
+    width: 234px;
+    height: 90px;
+    background-color: #ECEDED;
+    border-radius: 27px;
+    img{
+        width: 234px;
+        height: 90px;
+        border-radius: 27px;
+        animation: bedo 3s ;
+
+    }
+}
+
+#secc2{
+    position: relative;
+    top: 172px;
+    left: -1329px;
+    width: 1288px;
+    height: 376px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+
+}
+
+
+.continarr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    gap: 21px;
+}
+#secc3{
+    position: relative;
+    left: -2646px;
+    top: 697px;
+    width: 1288px;
+    height: 376px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+   h1{
+    display: flex;
+    gap: 1042px;
+   }
+}
+
+
+.continarr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    gap: 21px;
+}
+
+#secc4{
+    position: relative;
+    left: -3967px;
+    top: 1205px;
+    width: 1288px;
+    height: 376px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+   h1{
+    display: flex;
+    gap: 1042px;
+   }
+}
+
+#addv1{
+    width: 100%;
+    height: 259px;
+
+}
+
+#secc5{
+    position: relative;
+    left: -5264px;
+    top: 2031px;
+    width: 1462px;
+    height: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+   h1{
+    display: flex;
+    gap: 949px;
+   }
+}
+#secc6{
+    position: relative;
+    left: -6591px;
+    top: 3531px;
+    width: 1462px;
+    height: 777px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+
+   h1{
+    display: flex;
+    gap: 1027px;
+   }
+}
+#addv2 {
+    width: 100%;
+    height: 214px;
+    position: relative;
+    top: 95px;
+    left: -19px;
+}
+
+#secc7{
+    position: relative;
+    left: -7934px;
+    top: 4678px;
+    width: 1462px;
+    height: 416px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+/* 
+   h1{
+    display: flex;
+    gap: 1027px;
+   } */
+}
+
+#secc7>:first-child{
+    display: flex;
+    gap: 1027px;
+    width: 300px;
+}
+
+
+#wow{
+    width: 379px;
+    height: 128px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px floralwhite;
+    z-index: 13;
+
+    h1{
+        position: relative;
+        top: -18px;
+    }
+    h2{
+        position: relative;
+        top: 26px;
+        left: -122px;
+    }
+    h3{
+        position: relative;
+        left: -123px;
+    }
+}
+.cart{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 701px;
+    position: relative;
+    top: 656px;
+    right: 1px;
+    gap: 11px;
+
+    img{
+        width: 165px;
+        height: 121px;
+    }
+}
+
+
+@media (max-width:430px){
+    .addv1 {
+        width: 234px;
+    height: 90px;
+    background-color: white;
+    border-radius: 27px;
+        img {
+            width: 234px;
+            height: 90px;
+            border-radius: 27px;
+            animation: bedo 3s;
+            position: relative;
+            left: 31%;
+        }
+    }
+    .nav2>.search {
+        position: relative;
+        top: -8px;
+        left: -13px;
+    }
+    .nav1{
+            .continarr {
+                display: flex;
+                flex-wrap: wrap;
+                width: 99%;
+                gap: 21px;
+        }
+    
+        .home {
+            position: relative;
+            top: 21px;
+            left: 37px;
+            width: 63%;
+            font-size: 12px;
+            gap: 20px;
+        }
+        .log {
+            position: relative;
+            top: -48px;
+            left: 243px;
+            gap: 7px;
+            width: 37%;
+            height: 50px;
+        }
+        .log>:first-child {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+        .log>:nth-child(2) {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+    
+    }
+    .Home{
+        #ppp {
+            position: relative;
+            top: -113px;
+            left: 343px;
+        
+        }
+        
+        aside{
+            display: none;
+        }
+        .salescode{
+            display: none;
+        }
+        header {
+            width: 99%;
+            position: relative;
+            left: 1px;
+            top: -33px;
+            height: 593px;
+        }
+        .salescode2 {
+            width: 86%;
+            height: 214px;
+            flex-wrap: wrap;
+            position: relative;
+            top: 0;
+            left: 14px;
+
+            .box{
+                position: relative;
+                left: 21%;
+            }
+
+   
+
+                #secc2{
+                        position: relative;
+                        top: 29px;
+                        left: -13px;
+                        width: 416px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                    
+                }
+                #secc3{
+                    position: relative;
+                    top: 1762px;
+                    left: -10px;
+                    width: 416px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    h1 {
+                        display: flex;
+                        gap: 166px;
+                    }
+                }
+                #secc4{
+                    position: relative;
+                    top: 3495px;
+                    left: -10px;
+                    width: 416px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    #addv1 {
+                        width: 411px;
+                        height: 259px;
+                    }
+                    h1 {
+                        display: flex;
+                        gap: 127px;
+                    }
+                    .continarr {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 98%;
+                        gap: 21px;
+                    }
+                }
+                #secc5{
+                    position: relative;
+                    top: 5558px;
+                    left: -10px;
+                    width: 416px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                h1 {
+                    display: flex;
+                    gap: 102px;
+                }
+            }
+                #secc6{
+                    position: relative;
+                    top: 11627px;
+                    left: -10px;
+                    width: 416px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    #addv2 {
+                        width: 100%;
+                        height: 214px;
+                        position: relative;
+                        top: -20px;
+                        left: -19px;
+                    }
+                h1 {
+                    display: flex;
+                    gap: 279px;
+                }
+            }
+                #secc7{
+                    position: relative;
+                    top: 13630px;
+                    left: -10px;
+                    width: 416px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    
+                h1 {
+                    display: flex;
+                    gap: 279px;
+                }
+            }
+            
+        }
+    }
+}
+
+@media (max-width:390px){
+    .addv1 {
+        width: 234px;
+    height: 90px;
+    background-color: white;
+    border-radius: 27px;
+        img {
+            width: 234px;
+            height: 90px;
+            border-radius: 27px;
+            animation: bedo 3s;
+            position: relative;
+            left: 10%;
+        }
+    }
+    .nav2>.search {
+        position: relative;
+        top: -8px;
+        left: -13px;
+
+        .icons {
+            display: flex;
+            gap: 15px;
+            position: relative;
+            top: -66px;
+            left: -155px;
+        }
+    
+    }
+    .nav1{
+            .continarr {
+                display: flex;
+                flex-wrap: wrap;
+                width: 99%;
+                gap: 21px;
+        }
+    
+        .home {
+            position: relative;
+            top: 21px;
+            left: 37px;
+            width: 63%;
+            font-size: 12px;
+            gap: 20px;
+        }
+        .log {
+            position: relative;
+            top: -48px;
+            left: 144px;
+            gap: 7px;
+            width: 37%;
+            height: 50px;
+        }
+        .log>:first-child {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+        .log>:nth-child(2) {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+    
+    }
+    .Home{
+        #ppp {
+            position: relative;
+       
+            top: -155px;
+            left: 232px;
+        
+        }
+        
+        aside{
+            display: none;
+        }
+        .salescode{
+            display: none;
+        }
+        header {
+            width: 99%;
+            position: relative;
+            left: 1px;
+            top: -33px;
+            height: 593px;
+        }
+        .salescode2 {
+            width: 86%;
+            height: 214px;
+            flex-wrap: wrap;
+            position: relative;
+            top: 0;
+            left: 14px;
+
+            .box{
+                position: relative;
+                left: 12%;
+            }
+
+   
+
+                #secc2{
+                        position: relative;
+                        top: 29px;
+                        left: -13px;
+                        width: 296px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                    
+                }
+                #secc3{
+                    position: relative;
+                    top: 1762px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    h1 {
+                        display: flex;
+                        gap: 166px;
+                    }
+                }
+                #secc4{
+                    position: relative;
+                    top: 3495px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    #addv1 {
+                        width: 99%;
+                        height: 259px;
+                        position: relative;
+                        left: 12px;
+                    }
+                    h1 {
+                        display: flex;
+                        gap: 127px;
+                    }
+                    .continarr {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 98%;
+                        gap: 21px;
+                    }
+                }
+                #secc5{
+                    position: relative;
+                    top: 5558px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                h1 {
+                    display: flex;
+                    gap: 102px;
+                }
+            }
+                #secc6{
+                    position: relative;
+                    top: 11627px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    #addv2 {
+                        width: 100%;
+                        height: 214px;
+                        position: relative;
+                        top: -20px;
+                        left: -19px;
+                    }
+                h1 {
+                    display: flex;
+                    gap: 74px;
+                }
+            }
+                #secc7{
+                    position: relative;
+                    top: 13630px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    
+                h1 {
+                    display: flex;
+                    gap: 279px;
+                }
+            }
+            
+        }
+    }
+}
+
+/* @media (max-width:330px){
+    .addv1 {
+        width: 234px;
+    height: 90px;
+    background-color: white;
+    border-radius: 27px;
+        img {
+            width: 234px;
+            height: 90px;
+            border-radius: 27px;
+            animation: bedo 3s;
+            position: relative;
+            left: 10%;
+        }
+    }
+    .nav2>.search {
+        position: relative;
+        top: -8px;
+        left: -13px;
+
+        .icons {
+            display: flex;
+            gap: 15px;
+            position: relative;
+            top: -66px;
+            left: -155px;
+        }
+    
+    }
+    .nav1{
+            .continarr {
+                display: flex;
+                flex-wrap: wrap;
+                width: 99%;
+                gap: 21px;
+        }
+    
+        .home {
+            position: relative;
+            top: 21px;
+            left: 37px;
+            width: 63%;
+            font-size: 12px;
+            gap: 20px;
+        }
+        .log {
+            position: relative;
+            top: -48px;
+            left: 144px;
+            gap: 7px;
+            width: 37%;
+            height: 50px;
+        }
+        .log>:first-child {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+        .log>:nth-child(2) {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+    
+    }
+    .Home{
+        #ppp {
+            position: relative;
+       
+            top: -155px;
+            left: 232px;
+        
+        }
+        
+        aside{
+            display: none;
+        }
+        .salescode{
+            display: none;
+        }
+        header {
+            width: 99%;
+            position: relative;
+            left: 1px;
+            top: -33px;
+            height: 593px;
+        }
+        .salescode2 {
+            width: 86%;
+            height: 214px;
+            flex-wrap: wrap;
+            position: relative;
+            top: 0;
+            left: 14px;
+
+            .box{
+                position: relative;
+                left: 12%;
+            }
+
+   
+
+                #secc2{
+                        position: relative;
+                        top: 29px;
+                        left: -13px;
+                        width: 296px;
+                        height: 376px;
+                        display: flex;
+                        gap: 54px;
+                    
+                }
+                #secc3{
+                    position: relative;
+                    top: 1762px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    h1 {
+                        display: flex;
+                        gap: 166px;
+                    }
+                }
+                #secc4{
+                    position: relative;
+                    top: 3495px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    #addv1 {
+                        width: 99%;
+                        height: 259px;
+                        position: relative;
+                        left: 12px;
+                    }
+                    h1 {
+                        display: flex;
+                        gap: 127px;
+                    }
+                    .continarr {
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 98%;
+                        gap: 21px;
+                    }
+                }
+                #secc5{
+                    position: relative;
+                    top: 5558px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                h1 {
+                    display: flex;
+                    gap: 102px;
+                }
+            }
+                #secc6{
+                    position: relative;
+                    top: 11627px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    #addv2 {
+                        width: 100%;
+                        height: 214px;
+                        position: relative;
+                        top: -20px;
+                        left: -19px;
+                    }
+                h1 {
+                    display: flex;
+                    gap: 74px;
+                }
+            }
+                #secc7{
+                    position: relative;
+                    top: 13630px;
+                    left: -10px;
+                    width: 296px;
+                    height: 376px;
+                    display: flex;
+                    gap: 54px;
+                    
+                h1 {
+                    display: flex;
+                    gap: 279px;
+                }
+            }
+            
+        }
+    }
+} */

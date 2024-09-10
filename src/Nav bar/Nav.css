@@ -1,0 +1,438 @@
+body{
+    a{
+        color: #383735;
+text-decoration: none;
+    }
+
+}
+
+.Nav{
+    width: 100%;
+    height: 290px;
+    background-color:  #FF8A00;
+    h1{
+        font-size: 16px;
+        position: relative;
+        left: 35px;
+        top: 2px;
+        width: 50%;;
+
+    }
+    img{
+        width: 100%;
+
+    }
+}
+.home{
+    display: flex;
+    position: relative;
+    top: -27px;
+    left: 390px;
+    gap: 88px;
+    font-size: 17px;
+    color: #383735;
+
+}
+
+.log{
+    display: flex;
+    position: relative;
+    top: -56px;
+    left: 1016px;
+    gap: 37px;
+    width: 22%;
+}
+
+.log>:first-child{
+    width: 122px;
+    height: 45px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 2px 2px 11px white;
+    background-color: white;
+
+}
+.log>:last-child{
+    width: 122px;
+    height: 45px;
+    background: #FF8A00;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 2px 2px 50px white;
+}
+
+.Nav2{
+    display: flex;
+}
+#logo{
+    width: 55px;
+    height: 51px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    top: -16px;
+    left: 32px;
+    h1{
+        font-size: 16px;
+        position: relative;
+        left: 10px;
+        top: 16px;
+        color: #000000;
+    }
+}
+
+.search{
+   
+    position: relative;
+    top: -74px;
+    left: 188px;
+    display: flex;
+    gap: 13px;
+    width: 83%;
+
+
+    input{
+        width: 630px;
+        height: 60px;
+        border-radius: 5px;
+        border-style: none;
+        text-align: center;
+    }
+
+    button{
+        width: 168px;
+        height: 60px;
+        border-radius: 5px;
+        font-size: 16px;
+        border-style: none;
+        background-color: white;
+    }
+    
+
+        #Link{
+
+        button{ 
+        width: 168px;
+        height: 60px;
+        border-radius: 5px;
+        font-size: 16px;
+        border-style: none;
+        background-color: white;
+            }
+    
+        
+     
+
+    }
+    img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 17px;
+        left: 59px;
+    }
+}
+
+.icons{
+    display: flex;
+    gap: 37px;
+    position: relative;
+    top: -3px;
+    img{
+        width: 30px;
+        height: 30px;
+    }
+ 
+}
+
+
+
+
+
+@media (max-width:430px){
+    .nav-content {
+        background-color: darkorange;
+
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ 
+
+        .nav2>.search {
+            position: relative;
+            top: -8px;
+            left: -13px;
+            display: none;
+        }
+      #ppp {
+        position: relative;
+        left: 308px;
+        top: -71px;
+    }
+        .nav1 {
+            width: 100%;
+            .log {
+                position: relative;
+                top: -48px;
+                left: 144px;
+                gap: 7px;
+                width: 37%;
+                height: 50px;
+                display: none;
+                
+            }
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 76px;
+                top: 0px;
+                width: 58%;
+            }
+            .home {
+                position: relative;
+                top: 21px;
+                left: 37px;
+                width: 63%;
+                font-size: 12px;
+                gap: 20px;
+                display: none;
+            }
+      
+        }
+        .nav2{
+            #logo {
+                width: 55px;
+                height: 51px;
+                background-color: white;
+                border-radius: 30px;
+                position: relative;
+                left: -606px;
+                top: -4px;
+                display: none;
+            }
+        }
+     
+      }
+      #sec1>:nth-child(2) {
+        width: 90%;
+        height: 246px;
+        position: relative;
+        left: 27px;
+        top: 40px;
+        display: flex;
+    }
+    
+      .nav-content.open {    
+        z-index: 1;
+        position: relative;
+
+        .nav2 {
+            width: 97%;
+            position: relative;
+            left: -228px;
+            top: 28px;
+            #logo {
+                width: 55px;
+                height: 51px;
+                background-color: white;
+                border-radius: 30px;
+                position: relative;
+                left: 7px;
+                top: -217px;
+                z-index: 1;
+                display: block;
+
+            }
+            .search {
+                position: relative;
+                top: 16px;
+                left: 0;
+                display: flex;
+                z-index: 1;
+                width: 100%;
+                .icons {
+                    display: flex;
+                    gap: 15px;
+                    position: relative;
+                    top: -103px;
+                    left: -236px;
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        display: block;
+                    }
+                }
+                input {
+                    width: 630px;
+                    height: 60px;
+                    border-radius: 5px;
+                    border-style: none;
+                    text-align: center;
+                    position: relative;
+                    padding: 30px;
+                    left: 12px;
+                }
+                button {
+                    position: relative;
+                    left: 20px;
+                }
+            
+            }
+        }
+        .search :first-child{
+            display: none;
+        }
+     .nav1 {
+        width: 100%;
+        height: 480px;
+        background-color: #FF8A00;
+        z-index: 1;
+        h1 {
+            font-size: 16px;
+            position: relative;
+            left: 76px;
+            top: 8px;
+            width: 80%;
+        }
+        .home {
+            display: flex;
+            position: relative;
+            top: 29px;
+            left: 23px;
+            width: 130%;
+            font-size: 15px;
+            gap: 11px;
+            font-weight: bold;
+        }
+        .log {
+            position: relative;
+            top: 71px;
+            left: 84px;
+            gap: 32px;
+            width: 93%;
+            height: 48px;
+            display: flex;
+        }
+    }
+    #sec1>:nth-child(2) {
+        width: 91%;
+        height: 246px;
+        position: relative;
+        left: 27px;
+        top: 40px;
+        display: flex;
+    }
+  
+      }
+  
+   .Nav .menu-toggle {
+    display: block;
+    position: fixed;
+    top: 48px;
+    background-color: #FF8A00;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px darkorange;   
+    z-index: 2;
+
+}
+    .addv1 {
+        width: 234px;
+    height: 90px;
+    background-color: white;
+    border-radius: 27px;
+        img {
+            width: 234px;
+            height: 90px;
+            border-radius: 27px;
+            animation: bedo 3s;
+            position: relative;
+            left: 10%;
+        }
+    }
+    .nav2>.search {
+
+        position: relative;
+        top: -8px;
+        left: -13px;
+
+        .icons {
+            display: flex;
+            gap: 15px;
+            position: relative;
+            top: -66px;
+            left: -155px;
+        }
+    
+    }
+    .Nav{
+        width: 100%;
+        height: 103px;
+        background-color: #FF8A00;
+    
+    }
+    .nav1{
+
+            .continarr {
+                display: flex;
+                flex-wrap: wrap;
+                width: 99%;
+                gap: 21px;
+        }
+    
+        .home {
+            position: relative;
+            top: 21px;
+            left: 37px;
+            width: 63%;
+            font-size: 12px;
+            gap: 20px;
+        }
+        .log {
+            position: relative;
+            top: -48px;
+            left: 144px;
+            gap: 7px;
+            width: 37%;
+            height: 50px;
+        }
+        .log>:first-child {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+        .log>:nth-child(2) {
+            width: 85px;
+            height: 36px;
+            h1 {
+                font-size: 16px;
+                position: relative;
+                left: 11px;
+                top: -4px;
+                width: 73px;
+            }
+        }
+    
+    }
+}
+
+
+  
+ .menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
